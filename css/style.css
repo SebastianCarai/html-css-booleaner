@@ -16,7 +16,7 @@ header{
 
 header img{
     width: 10%;
-    margin-top: 3%;
+    margin-top: 2.5%;
     margin-left: 1%;
 }
 /* /HEADER */
@@ -30,17 +30,18 @@ main, footer{
 }
 
 /* Credits */
-.credits{
+.credits, .date{
     color: grey;
+    margin-bottom: 20px;
 }
 
 .author{
     color: #36b1e7;
+    font-weight: 600;
 }
 
 .date{
-    color: grey;
-    font-size: 12px;;
+    font-size: 12px;
 }
 
 /* Photos */
@@ -49,8 +50,8 @@ main, footer{
 }
 
 /* Paragraphs */
-.main-content{
-    margin-top: 15px;
+.main-content, ul{
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -60,7 +61,6 @@ main, footer{
 
 ul{
     margin-left: 20px;
-    margin-bottom: 20px;
 }
 
 /* Table */
@@ -74,11 +74,11 @@ th{
     background-color:#b1e5f2;
 }
 
-.left,{
+.left-column, .middle-column{
     width: 25%;
 }
 
-.right{
+.right-column{
     width: 50%;
 }
 
